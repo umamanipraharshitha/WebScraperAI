@@ -1,70 +1,218 @@
-# WebScraperAI
+# 🌐 WebScraperAI
 
-**WebScraperAI** is a Python-based competitive intelligence tool that helps you:
+An AI-powered Competitive Intelligence & Research CLI built with Python, Playwright, and Google Gemini.
 
-- Fetch the **latest AI news**.
-- Track **cryptocurrency prices** (Bitcoin, Ethereum).
-- Scrape **competitor websites** for pricing information.
-- Capture **screenshots** of competitor pages.
-- Perform **AI-based analysis** of competitor page content.
-
-This tool is modular, easy to use, and demonstrates real-world web scraping combined with AI insights.
+WebScraperAI helps researchers, developers, founders, and analysts discover websites, extract content, capture screenshots, analyze business models, summarize web pages, monitor news trends, and track market intelligence from a single command-line interface.
 
 ---
 
-## Features
+## ✨ Features
 
-1. **Latest AI News**  
-   Retrieves the top 5 AI-related news articles with titles and URLs.
+### 🔍 Link Discovery Engine
 
-2. **Crypto Prices**  
-   Fetches live Bitcoin and Ethereum prices using the CoinGecko API.
+* Search the web using custom keywords
+* Discover relevant articles and resources
+* Generate research links instantly
 
-3. **Competitor Page Scraping**  
-   Extracts pricing information from a competitor’s website or API URL (supports both HTML pages and JSON APIs).
+### 🌐 Website Scraper
 
-4. **Screenshots**  
-   Takes a screenshot of the competitor page using Playwright.
+* Extract webpage content
+* Capture complete page HTML
+* Detect pricing information automatically
+* Save extracted content locally
 
-5. **AI Analysis**  
-   Uses your AI module (e.g., Gemini) to analyze page text for competitive insights.
+### 📸 Screenshot Capture
+
+* Generate full-page website screenshots
+* Powered by Playwright
+* Useful for competitor monitoring
+
+### 🧠 AI Analysis Engine
+
+* Google Gemini-powered analysis
+* Business model extraction
+* Product and feature identification
+* Pricing strategy analysis
+* Competitor intelligence reports
+
+### 📰 News Monitoring
+
+* Discover trending topics
+* Track industry developments
+* Monitor AI, biotech, finance, and custom domains
+
+### 💰 Market Intelligence
+
+* Live cryptocurrency prices
+* Stock market lookups
+* Asset monitoring dashboard
 
 ---
 
-## Installation
-Install dependencies
+## 🏗️ Project Structure
 
-pip install -r requirements.txt
+```text
+WebScraperAI/
+│
+├── main.py
+│
+├── modules/
+│   ├── ai_analysis.py
+│   ├── news_fetcher.py
+│   ├── price_tracker.py
+│   └── web_scraper.py
+│
+├── data/
+│   ├── scraped_content.txt
+│   ├── screenshot.png
+│   └── report.md
+│
+├── .env
+├── .gitignore
+└── requirements.txt
+```
 
+---
 
-Set up environment variables
+## 🚀 Installation
 
-Create a .env file in the root directory and add any required API keys, e.g.:
+Clone the repository:
 
-GEMINI_API_KEY=your_api_key_here
-NEWS_API_KEY=your_api_key_here
-Usage
-
-## Run the main script:
-
-python main.py
-
-
-## Follow the prompts:
-
-View the latest AI news.
-
-Check current crypto prices.
-
-Enter a competitor pricing page URL (HTML page or API URL).
-
-View extracted prices.
-
-Get a screenshot saved locally.
-
-Receive AI-based analysis of the page content.
-
-
-## git cloning
+```bash
 git clone https://github.com/umamanipraharshitha/WebScraperAI.git
 cd WebScraperAI
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install Playwright browser:
+
+```bash
+playwright install chromium
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Get your Gemini API key from Google AI Studio.
+
+---
+
+## ▶️ Run
+
+```bash
+python main.py
+```
+
+---
+
+## 🖥️ Main Dashboard
+
+```text
+🤖 COMPETITIVE INTELLIGENCE & RESEARCH SYSTEM
+
+[1] Link Discovery
+[2] Web Scraper
+[3] AI Summarizer
+[4] Explorer Hub
+[0] Exit
+```
+
+---
+
+## 📊 Example Workflow
+
+### Step 1
+
+Search for a competitor:
+
+```text
+AI coding assistants
+```
+
+### Step 2
+
+Scrape competitor website:
+
+```text
+https://example.com
+```
+
+### Step 3
+
+Generate screenshot:
+
+```text
+data/screenshot.png
+```
+
+### Step 4
+
+Run AI analysis:
+
+```text
+Business Model
+Pricing Strategy
+Features
+Target Audience
+Strengths & Weaknesses
+```
+
+### Step 5
+
+Export report:
+
+```text
+data/report.md
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Playwright
+* Google Gemini
+* Requests
+* Hacker News API
+* CoinGecko API
+* Regex
+* dotenv
+
+---
+
+## 🎯 Use Cases
+
+* Competitor Research
+* Market Intelligence
+* Startup Analysis
+* Website Investigation
+* Product Research
+* News Monitoring
+* Investment Research
+* Trend Discovery
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for educational, research, and competitive analysis purposes only. Users are responsible for complying with website terms of service and applicable laws.
+
+---
+
+## 👨‍💻 Author
+
+Praharshitha
+
+If you find this project useful, consider giving it a ⭐ on GitHub.
