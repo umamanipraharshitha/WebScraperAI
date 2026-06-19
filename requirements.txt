@@ -1,0 +1,8 @@
+python-dotenv
+browser-use
+google-generativeai
+pytrends
+yfinance
+pandas
+streamlit
+matplotlib
